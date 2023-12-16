@@ -32,8 +32,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MagazineGizmos.cs" />
-    <Compile Include="MagazineHelper.cs" />
+    <Compile Include="AdvancedIconCamera.cs" />
+    <Compile Include="Editor\AdvancedIconCameraEditor.cs" />
+    <Compile Include="Editor\BulkAlloyMapCreator.cs" />
+    <Compile Include="Editor\BulkAlloyMapCreatorEditor.cs" />
+    <Compile Include="Editor\BulkTextureCrunchEnabler.cs" />
+    <Compile Include="Editor\MagazineGizmos.cs" />
+    <Compile Include="Editor\MagazineHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp-firstpass_publicized">
